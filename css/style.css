@@ -364,6 +364,30 @@ body {
   outline-color: #FF8F27;
 }
 
+.actor-block {
+  display: inline-block;
+  margin-right: 0;
+  padding-left: 7px;
+}
+
+.actor-block-img {
+  max-width: 160px;
+}
+
+.premier-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+}
+
+.premier-block-title {
+  margin-right: 10px;
+}
+
 @media (max-width: 1200px) {
   body {
     background-size: auto;
